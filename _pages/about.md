@@ -10,7 +10,6 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Lab42, 6th floor</p>
-    <p>Science Park 900</p>
     <p>Amsterdam, NL</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
