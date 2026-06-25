@@ -1,6 +1,9 @@
 "aziz":
   - firstname: ["Wilker"]
     url: https://wilkeraziz.github.io
+"titov":
+  - firstname: ["Ivan"]
+    url: http://ivan-titov.org
 
 "adams":
   - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
