@@ -3,7 +3,7 @@ name: Integration tests
 on:
   push:
     branches:
-      - master
+#      - master
       - main
       - v1.0-dev
     paths:
