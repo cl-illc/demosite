@@ -4,6 +4,9 @@
 "titov":
   - firstname: ["Ivan"]
     url: http://ivan-titov.org
+"ferreira":
+  - firstname: ["Pedro"]
+    url: https://www.illc.uva.nl/People/person/5302/Pedro-Ferreira
 
 "adams":
   - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
