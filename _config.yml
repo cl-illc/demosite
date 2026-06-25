@@ -341,8 +341,8 @@ display_categories: ["community"] #["community", "external-services"] # these ca
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  #last_name: [Einstein]
+  #first_name: [Albert, A.]
 
   style: apa
   locale: en
