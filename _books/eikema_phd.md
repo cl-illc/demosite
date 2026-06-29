@@ -14,7 +14,7 @@ finished:
 released: 
 stars: 
 goodreads_review: 
-status: 
+status: PhD thesis
 ---
 Neural text generation models form the foundation of modern natural language processing systems. Despite major advances in neural network architectures and training paradigms, their underlying probabilistic formulation has remained unchanged.
 In practice, however, this probabilistic nature is often largely ignored at inference time. For many generation tasks, deterministic decoding algorithms are used to extract a single highest-probability sequence from the model. This implicitly assumes that the modes of the model distribution correspond to fluent, data-like text, an assumption that is frequently violated in practice. Across many text generation tasks, the most probable sequences produced by neural text generation models are often too short, repetitive, or otherwise unnatural.
