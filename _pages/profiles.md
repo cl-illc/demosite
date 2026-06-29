@@ -6,49 +6,29 @@ description: members of the unit
 nav: true
 nav_order: 7
 
-# Unit leaders
 
 profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: right
-    image: prof_pic.jpg
-    content: about_einstein.md
+    image: members/shutova.jpg
+    content: about_shutova.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+      <p>Unit leader</p>
+      <p>LAB42</p>
   - align: left
-    image: prof_pic.jpg
+    image: members/zuidema.jpg
     content: about_einstein.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
-
-
-# Senior staff
-
----
-
-# Postdocs
-
----
-
-# PhD candidates
-
----
-
-# Guest researchers
-
----
-
-# ILLC members connected to the unit by additional affiliation
-
----
-
-# Former members
-
+      <p>Unit leader</p>
+      <p>LAB42</p>
+  - align: right
+    image: members/aziz.jpg
+    content: about_einstein.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Senior staff</p>
+      <p>LAB42</p>
 ---
