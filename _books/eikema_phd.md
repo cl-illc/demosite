@@ -5,16 +5,17 @@ author: Bryan Eikema
 cover: assets/img/book_covers/eikema-phd.jpg
 #olid: OL43499941M # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9789465360126 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
-categories: PhD thesis 
-tags: inference
-buy_link: https://handle.uba.uva.nl/personal/pure/en/publications/a-samplingbased-exploration-of-neural-text-generation-models(9cd9d44e-f091-4135-9dc3-5e33f232d9d9).html 
+categories: PhD 
+tags: sampling decoding
+buy_link: https://dare.uva.nl/id/9cd9d44e-f091-4135-9dc3-5e33f232d9d9
+url: https://dare.uva.nl/id/9cd9d44e-f091-4135-9dc3-5e33f232d9d9
 date: 2026-02-10
 started: 
 finished: 
 released: 
 stars: 
 goodreads_review: 
-status: PhD thesis
+#status: 
 ---
 Neural text generation models form the foundation of modern natural language processing systems. Despite major advances in neural network architectures and training paradigms, their underlying probabilistic formulation has remained unchanged.
 In practice, however, this probabilistic nature is often largely ignored at inference time. For many generation tasks, deterministic decoding algorithms are used to extract a single highest-probability sequence from the model. This implicitly assumes that the modes of the model distribution correspond to fluent, data-like text, an assumption that is frequently violated in practice. Across many text generation tasks, the most probable sequences produced by neural text generation models are often too short, repetitive, or otherwise unnatural.
