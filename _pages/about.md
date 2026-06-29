@@ -27,6 +27,6 @@ latest_posts:
 ---
 
 
-Research in the Natural Language Processing and Digital Humanities unit focuses on automated analysis, interpretation and generation of human language and their extension towards language technology. Our work encompasses a range of topics within natural language processing (NLP), such as syntactic parsing, computational semantics and pragmatics, discourse processing, dialogue modelling, machine translation and multilingual NLP.
+Research in the Natural Language Processing unit focuses on automated analysis, interpretation and generation of human language and their extension towards language technology. Our work encompasses a range of topics within natural language processing (NLP), such as syntactic parsing, computational semantics and pragmatics, discourse processing, dialogue modelling, machine translation and multilingual NLP.
 
 Our interdisciplinary focus, incorporating insights from linguistics, cognitive science, psychology and machine learning, gives our group’s research a unique profile, having led to numerous distinctive contributions over four decades. Whilst well-known for its influential research in the areas of statistical parsing, syntax based machine translation and semantic role labeling, recently the group has pioneered methods for interpretability of neural models, graph neural networks for NLP and few-shot learning applied to NLP tasks.
