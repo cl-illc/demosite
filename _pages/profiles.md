@@ -6,6 +6,8 @@ description: members of the unit
 nav: true
 nav_order: 7
 
+# Unit leaders
+
 profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
@@ -25,4 +27,28 @@ profiles:
       <p>555 your office number</p>
       <p>123 your address street</p>
       <p>Your City, State 12345</p>
+
+
+# Senior staff
+
+---
+
+# Postdocs
+
+---
+
+# PhD candidates
+
+---
+
+# Guest researchers
+
+---
+
+# ILLC members connected to the unit by additional affiliation
+
+---
+
+# Former members
+
 ---
