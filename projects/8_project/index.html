@@ -80,7 +80,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "Course materials, schedules, and resources for classes taught.",
+          description: "courses offered by members of our unit",
           section: "Navigation",
           handler: () => {
             window.location.href = "/demosite/teaching/";
@@ -101,6 +101,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/demosite/books/eikema_phd/";
+            },},{id: "courses-probabilistic-graphical-models",
+          title: 'Probabilistic graphical models',
+          description: "BKI",
+          section: "Courses",handler: () => {
+              window.location.href = "/demosite/courses/bki_pgms/";
             },},{id: "members-wilker-aziz",
           title: 'Wilker Aziz',
           description: "LAB42",
@@ -174,16 +179,6 @@ ninja.data = [{
           description: "unified transcription and translation for extended reality",
           section: "Projects",handler: () => {
               window.location.href = "/demosite/projects/utter/";
-            },},{id: "teachings-data-science-fundamentals",
-          title: 'Data Science Fundamentals',
-          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/demosite/teachings/data-science-fundamentals/";
-            },},{id: "teachings-probabilistic-graphical-models",
-          title: 'Probabilistic Graphical Models',
-          description: "This course ...",
-          section: "Teachings",handler: () => {
-              window.location.href = "/demosite/teachings/introduction-to-machine-learning/";
             },},{
         id: 'social-email',
         title: 'email',
