@@ -1,13 +1,9 @@
 ---
 layout: page
-title: PGMs
-description: probabilistic graphical models
+title: Probabilistic Graphical Models
+description: coordinated by Wilker Aziz
 img: assets/img/logos/pgms.png
-importance: 1
 period: Y2B2
 category: BSc AI
 ---
-
-
-
 
