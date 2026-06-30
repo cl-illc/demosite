@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sandro Pezzelle
-description: L6.55
+description: LAB42
 img: assets/img/members/pezzelle.jpg
 redirect: https://sandropezzelle.github.io 
 category: senior staff
