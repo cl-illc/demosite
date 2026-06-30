@@ -16,8 +16,10 @@ horizontal: false
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>
+
   {% assign categorized_projects = site.courses | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "period" %}
+  {% assign sortkey = period | append: "/" | append: title %}
+  {% assign sorted_projects = categorized_projects | sort: "sortkey" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
   <div class="container">
