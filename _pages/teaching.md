@@ -1,15 +1,40 @@
 ---
 layout: page
-permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
+permalink: /teaching/
+description: courses offered by members of our unit 
 nav: true
 nav_order: 7
-calendar: true
+display_categories: [MSc AI, BSc AI]
+horizontal: false
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+<!-- pages/projects.md -->
+<div class="projects">
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+  <!-- Display categorized projects -->
+  {% for category in page.display_categories %}
+  <a id="{{ category }}" href=".#{{ category }}">
+    <h2 class="category">{{ category }}</h2>
+  </a>
+  {% assign categorized_courses = site.courses | where: "category", category %}
+  {% assign sorted_courses = categorized_courses | sort: "when" %}
+  <!-- Generate cards for each course -->
+  {% if page.horizontal %}
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2">
+    {% for course in sorted_courses %}
+      {% include projects_horizontal.liquid %}
+    {% endfor %}
+    </div>
+  </div>
+  {% else %}
+  <div class="row row-cols-1 row-cols-md-3">
+    {% for course in sorted_courses %}
+      {% include projects.liquid %}
+    {% endfor %}
+  </div>
+  {% endif %}
+  {% endfor %}
 
-{% include courses.liquid %}
+</div>
