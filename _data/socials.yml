@@ -8,7 +8,15 @@ rss_icon: true # comment this line to hide the RSS icon
 #scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
+certain:
+  logo: certain.png
+  title: certain-ai
+  url: https://certain-ai.nl
+ams_ai: 
+  logo: /assets/img/logos/amsterdamai.png
+  title: amsterdam ai
+  url: https://amsterdamai.com
+illc: 
   logo: /assets/img/logos/illc-no-text.jpg
   title: ILLC
   url: https://www.illc.uva.nl
